@@ -1,5 +1,6 @@
 This library operates with SPI NOR Flash memories through Software SPI (bit-bang),
 thus depending on the `SW_SPI.h` file.
+https://github.com/PortdTecnologia/Bitbang_Protocols/blob/main/SW_SPI.h
 
 Because it operates using bit-bang, it can be used on virtually any microcontroller,
 including those without hardware SPI support, provided there is enough memory
