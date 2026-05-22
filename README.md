@@ -23,5 +23,9 @@ It includes functions for:
 
 ---
 
+Dependences: https://github.com/PortdTecnologia/Bitbang_Protocols/blob/main/SW_SPI.h
+
+---
+
 More information:  
 https://www.youtube.com/@Gustavo_PORTD
