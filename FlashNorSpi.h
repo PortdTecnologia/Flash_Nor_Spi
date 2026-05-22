@@ -8,7 +8,7 @@
 #define FlashNorSpi_H
 
 #ifndef SW_SPI_H
-#include SW_SPI.h
+#include "SW_SPI.h"
 #endif
 /*--------------------*/
 
