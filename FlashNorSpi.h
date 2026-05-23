@@ -4,14 +4,13 @@
 /** Autor: Gustavo Pereira da Silva                License: MIT             **/
 /*****************************************************************************/
 
-/*    DEPENDENCES    */
+#ifndef FlashNorSpi_H
 #define FlashNorSpi_H
 
-#ifndef SW_SPI_H
-#include "SW_SPI.h"
-#endif
-/*--------------------*/
 
+/*    DEPENDENCES    */
+#include "SW_SPI.h"
+/* ----------------- */
 
 #define FLASH_SIZE_MB  Flash_JEDEC[3]
 
@@ -191,3 +190,7 @@ void Nor_SectorProgram(uint32_t sec, uint8_t data[]){
     Nor_PageProgram((2*sec), 0, data);
     Nor_PageProgram((2*sec)+1, 256, data);    
 }
+
+
+
+#endif
