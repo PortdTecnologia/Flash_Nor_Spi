@@ -192,5 +192,10 @@ void Nor_SectorProgram(uint32_t sec, uint8_t data[]){
 }
 
 
-
 #endif
+
+/****************************************************************/
+/**         PARA MAIS INFORMACOES - MORE INFORMATIONS          **/
+/**           https://www.youtube.com/@Gustavo_PORTD           **/
+/**              https://x.com/gustavo_portd                   **/
+/****************************************************************/
